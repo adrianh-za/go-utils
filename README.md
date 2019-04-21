@@ -1,5 +1,11 @@
 # utils-golang
 
-Various libraries written in Go to perform various functions
+Various libraries written in Go to perform various functions.
 
-Original <b>colorsys-go.go</b> copied from https://github.com/cckuailong/colorsys-go
+## Acknowledgements ##
+
+This project draws inspiration and borrows heavily from various people around the internet.
+
+## Gits ##
+
+https://github.com/ikester/gpio
