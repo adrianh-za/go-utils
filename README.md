@@ -2,4 +2,4 @@
 
 Various libraries written in Go to perform various functions
 
-colorsys-go copied from https://github.com/cckuailong/colorsys-go
+Original <b>colorsys-go.go</b> copied from https://github.com/cckuailong/colorsys-go
