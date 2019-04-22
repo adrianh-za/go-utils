@@ -243,3 +243,15 @@ func Hsv2Hls(h, s, v float64)(float64, float64, float64){
 	r, g, b := Hsv2Rgb(h, s, v)
 	return Rgb2Hls(r, g, b)
 }
+
+//Convert RGB values to Hex (uint32)
+func RGBToHex(r uint32, g uint32, b uint32) uint32 {
+	//return ((r >> 8) & 0xff) << 16 + ((g >> 8) & 0xff) <<8 + ((b >> 8) & 0xff)
+	//return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
+	return ((1 << 24) + (r << 16) + (g << 8) + b)
+}
+
+//Convert RGB values with Aplha channel to Hex (uint32)
+func RGBAToHex(r uint32, g uint32, b uint32, a uint32) uint32 {
+	return ((r & 0xff) << 24) + ((g & 0xff) << 16) + ((b & 0xff) << 8) + (a & 0xff);
+}
