@@ -8,4 +8,4 @@ This project draws inspiration and borrows heavily from various people around th
 
 ## Gits ##
 
-https://github.com/ikester/gpio
+https://github.com/cckuailong/colorsys-go
