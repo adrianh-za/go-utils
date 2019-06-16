@@ -1,4 +1,4 @@
-# utils-golang
+# Go-Utils
 
 Various libraries written in Go to perform various functions.
 
